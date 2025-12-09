@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras Tomar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e7f1b6e48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="paras logo 1.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark menu-close"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu-open"></i>
+            </nav>
+            <div class="heder-text">
+                <p class="role-text">Frontend Developer</p>
+                <h1 class="hero-heading">Hi, I'm <span class="name-highlight">Paras</span> Tomar</h1>
+                <a href="Paras New Resume.pdf" class="btn">Download Resume</a>
+                <a href="#portfolio" class="btn">View Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Paras Photo.jpeg" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a results-driven Frontend Developer with a strong foundation in modern web technologies and
+                        responsive design. I build high-quality user interfaces with a focus on performance,
+                        accessibility, and clean user experience. My goal is to transform concepts into functional,
+                        production-ready solutions while continuously learning and adapting to new tools and frameworks.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML, CSS, JavaScript, React</li>
+                            <li><span>Backend</span><br>Node.js, Java, Spring Boot</li>
+                            <li><span>Database</span><br>MongoDB, MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2024 - Present</span><br>
+                                Personal Projects & Learning<br>
+                                <small>Building hands-on projects using HTML, CSS, JavaScript, React, and Node.js to
+                                    strengthen development skills.</small>
+                            </li>
+
+                            <li>
+                                <span>2023</span><br>
+                                E-Commerce Website Project<br>
+                                <small>Developed a fully functional e-commerce web application with features like
+                                    product listing, cart system, and responsive UI using modern web
+                                    technologies.</small>
+                            </li>
+
+                            <li>
+                                <span>Ongoing</span><br>
+                                Open Source & Practice<br>
+                                <small>Contributing to GitHub repositories, solving coding challenges, and continuously
+                                    improving problem-solving abilities.</small>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022 - 2025</span><br>
+                                B.Tech in Computer Science (Lateral Entry, Pursuing)
+                            </li>
+                            <li>
+                                <span>2019 - 2022</span><br>
+                                Diploma in Electronics Engineering
+                                <p>
+                                    During my diploma, I developed a strong interest in programming and
+                                    software development, which motivated me to pursue B.Tech in Computer
+                                    Science through lateral entry.
+                                </p>
+                            </li>
+                            <li>
+                                <span>2017 - 2019</span><br>
+                                Intermediate
+                            </li>
+                            <li>
+                                <span>2017</span><br>
+                                High School (10th)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Design</h2>
+                    <p>Create responsive and modern websites with attractive UI/UX and smooth user experience.</p>
+                    <a href="https://allgadgetzone.netlify.app/" target="_blank" rel="noopener noreferrer">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Application Design</h2>
+                    <p>Build powerful applications with optimized performance and clean design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Design user-friendly interfaces with engaging layouts for better usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Website Development</h2>
+                    <p>Develop full-fledged websites with modern frameworks, responsive design, and backend integration.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database & API Development</h2>
+                    <p>Build secure databases and scalable REST APIs with authentication and cloud integration.</p>
+                    <a href="https://paras9771.github.io/weather-app/" target="_blank" rel="noopener noreferrer">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Weather Img.png" alt="Weather App">
+                    <div class="layer">
+                        <h3>Weather Application</h3>
+                        <p>A responsive weather app using OpenWeather API to display temperature, humidity, and wind
+                            speed.</p>
+                        <a href="https://github.com/paras9771/weather-app" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://paras9771.github.io/weather-app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="E-commerce.png" alt="E-Commerce Website">
+                    <div class="layer">
+                        <h3>E-Commerce Website </h3>
+                        <p>A responsive e-commerce site showcasing products, managing cart, and processing checkout.</p>
+                        <a href="https://github.com/paras9771/e-commerce-website" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://allgadgetzone.netlify.app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="snake.png" alt="Snake Game">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>A classic Snake Game built using HTML, CSS, and JavaScript with smooth controls and score
+                            tracking.</p>
+                        <a href="https://github.com/Paras9771/Snake-Game-AI-Agent?tab=readme-ov-file" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://paras9771.github.io/Snake-Game-AI-Agent/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Play Game
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="kanban-board.png" alt="Paras Kanban Board">
+                    <div class="layer">
+                        <h3>Kanban Board</h3>
+                        <p>A clean Kanban board to add, edit, delete, and move tasks across columns.</p>
+
+                        <a href="https://github.com/Paras9771/Kanban-Task-Management-Board" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://paras9771.github.io/Kanban-Task-Management-Board/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="todo.png" alt="ToDo List App">
+
+                    <div class="layer">
+                        <h3>ToDo List Application</h3>
+                        <p>A beautiful gradient ToDo App with add, delete and task management features.</p>
+
+                        <a href="https://github.com/Paras9771/Interactive-ToDo-app?tab=readme-ov-file" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+
+                        <a href="https://paras9771.github.io/Interactive-ToDo-app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievements Section -->
+    <div id="achievements">
+        <div class="container">
+            <h1 class="subtitle">Achievements</h1>
+            <ul>
+                <li>🏆 Completed Full Stack Development Course</li>
+                <li>💻 Solved 200+ coding problems on LeetCode</li>
+                <li>🏅 Finalist in Smart India Hackathon 2024</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> parastomar851@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8791559154</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/paras9771" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/parastomar123/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Paras New Resume.pdf" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2025 Paras Tomar | Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.getElementsByClassName("tab-link");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        const sidemenu = document.getElementById("sidemenu");
+        const openBtn = document.querySelector(".fa-bars");
+        const closeBtn = document.querySelector(".fa-xmark");
+
+        openBtn.addEventListener("click", () => {
+            sidemenu.style.right = "0";
+            openBtn.style.display = "none";
+            closeBtn.style.display = "block";
+        });
+
+        closeBtn.addEventListener("click", () => {
+            sidemenu.style.right = "-250px";
+            openBtn.style.display = "block";
+            closeBtn.style.display = "none";
+        });
+
+    </script>
+</body>
+
+</html>
